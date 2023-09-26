@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta charset="UTF-8">
+  <title>Constructive & Co.</title>
+    <link rel="stylesheet" href="css/ho1.css" />
+</head>
+<body>
+    <h1>Constructive &amp; Co.</h1>
+    <script> 
+let today = new Date();
+let hourNow = today.getHours();  
+let greeting;
+if (hourNow > 18)      {greeting = 'Good evening!';} 
+else if (hourNow > 12) {greeting = 'Good afternoon!';} 
+else if (hourNow > 5)  {greeting = 'Good morning!';} 
+else {greeting = 'Welcome!';}
+document.write('<h3>' + greeting + '</h3>');
+</script>
+
+    <p>For all orders and inquiries please call <em>529-2253</em></p>
+
+</body>
+</html>
